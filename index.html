@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pol'and'Rock Festival</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="header__background" id="top"></div>
+    </header>
+
+    <main>
+      <div class="contenedor-flex">
+        <article class="contenido-principal">
+          <section id="festival">
+            <h2>Sobre festival</h2>
+            <p>
+              El Pol'and'Rock Festival, anteriormente conocido como Woodstock
+              Polonia, es uno de los festivales de música rock gratuitos más
+              grandes de Europa, celebrado anualmente en Polonia desde 1995.
+              Organizado por la Fundación Gran Orquesta de Ayuda Navideña como
+              agradecimiento a los voluntarios, el evento promueve el "Amor,
+              Amistad y Música" con un ambiente inspirado en el Woodstock
+              original de 1969.
+            </p>
+            <div class="cta-wrap">
+              <a class="cta" href="#entradas">Ir a entradas</a>
+            </div>
+            <div
+              id="carouselFestival"
+              class="carousel slide mi-carousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/luces.webp"
+                    class="d-block w-100"
+                    alt="Luces del festival"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/fente.webp"
+                    class="d-block w-100"
+                    alt="Gente en el festival"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/sunflower_punk.webp"
+                    class="d-block w-100"
+                    alt="Decoración del festival"
+                  />
+                </div>
+              </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselFestival"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselFestival"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </section>
+
+          <div class="bloques-dos">
+            <section id="entradas" class="bloque">
+              <h2>Compra tu entrada</h2>
+
+              <div class="pago">
+                <img
+                  class="pago__mano"
+                  src="images/mano_pay.webp"
+                  alt="Tarjeta de pago"
+                />
+                <img
+                  class="pago__datafono"
+                  src="images/datafono.webp"
+                  alt="Datáfono"
+                />
+              </div>
+            </section>
+
+            <section id="donaciones" class="bloque">
+              <h2>Donaciones <i class="bi bi-coin moneda-rotar"></i></h2>
+
+              <img
+                class="img-donacion"
+                src="images/hucha.webp"
+                alt="Hucha de donaciones"
+              />
+            </section>
+          </div>
+        </article>
+
+        <aside class="barra-lateral">
+          <img class="heartbeat" src="images/WOŚP.webp" alt="Logo de ONG" />
+        </aside>
+      </div>
+    </main>
+
+    <footer
+      class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="#top"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Inicio"
+        >
+          <i class="bi bi-music-note-beamed" style="font-size: 24px"></i>
+        </a>
+
+        <span class="mb-3 mb-md-0"> © 2025 Company, Inc </span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a
+            class="text-body-secondary"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram" style="font-size: 24px"></i>
+          </a>
+        </li>
+
+        <li class="ms-3">
+          <a
+            class="text-body-secondary"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+          >
+            <i class="bi bi-facebook" style="font-size: 24px"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
